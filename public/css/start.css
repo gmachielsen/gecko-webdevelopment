@@ -1,0 +1,43 @@
+main {
+    padding: 0!important;
+}
+
+body {
+    display: flex;
+}
+
+.welcome.one {
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: black!important;
+    color: white;
+}
+
+
+.welcome.one h1 {
+    font: 8vw Barlow Condensed,sans-serif;
+    text-transform: uppercase;
+    padding:10px;
+}
+
+.firstrule, .secondrule {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    padding: 0!important;
+}
+
+#app {
+
+}
+
+@media screen and (max-width: 800px) {
+    .body {
+        padding-top: 50%!important;
+    }
+}
+
