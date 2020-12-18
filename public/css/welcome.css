@@ -1,0 +1,65 @@
+header {
+    background-color: black;
+    color: snow;
+}
+
+span {
+    padding-left: 10px;
+}
+
+#one {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    color: snow;
+    font-family: Barlow Condensed,sans-serif;
+    font-size: large;
+
+}
+
+
+.container {
+    margin: 0!important;
+    width: 100vw!important;
+}
+
+.landingtext {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.firstrule {
+    padding-top: 10%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 800px) {
+    .firstrule h1 {
+        padding: 20px;
+        text-transform: uppercase;
+        font-size: 8vw;
+        font-weight: bolder;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .firstrule {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .firstrule h1 {
+        font-size: 10vw;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: snow;
+    }
+}
