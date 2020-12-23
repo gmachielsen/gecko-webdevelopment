@@ -20,7 +20,7 @@
     @endif
     </div>
         <!--Grid column-->
-        <div class="col-md-12 mb-md-0 mb-9">
+        <div id="section" class="col-md-12 mb-md-0 mb-9">
             <form id="contact-form" name="contact-form" action="{{ route('send.post')}}" method="POST">
                 @csrf
                 <!--Grid row-->

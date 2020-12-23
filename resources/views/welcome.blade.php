@@ -1,23 +1,35 @@
 @extends('layouts.app')
 @push('styles')
-    <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
+    <!-- <link href="{{ asset('css/welcome.css') }}" rel="stylesheet"> -->
 @endpush
 @push('scripts')
-    <script src="{{ asset('js/welcome.js')}}"></script>
+    <!-- <script src="{{ asset('js/welcome.js')}}"></script> -->
 @endpush
 @section('content')
-<section class="" id="one">
-    <div class="landingtext">
-        <div class="firstrule">
-            <h1>Welkom</h1>
-            <h1>bij</h1>
-            <h1>Gecko Webdevelopment</h1>
-            <p>Wij zijn gek van creativeit en technologie op het web</p>
+ 
+    <div class="section full-height over-hide">	
+        <div class="switch-wrap">
+            <h1>Gecko webdevelopment</h1>
 
+
+            <div id="switch" class="hover-target">
+                <div id="circle"></div>
+            </div>
+            <p><span>dark</span> - <span>light</span></p>
         </div>
-        <div class="secondrule">
-            <p>Wij zijn gek van creativeit en technologie op het web</p>
-        </div>
-    </div>
-</section>
+    </div>	
+
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
+
+
+
+
 @endsection
+
+<!-- Link to page
+================================================== -->
+
+<!-- <a href="https://front.codes/" class="link-to-portfolio hover-target" target=”_blank”></a> -->
+

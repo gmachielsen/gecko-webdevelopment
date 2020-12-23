@@ -1,25 +1,154 @@
-(function() {
-    var text = [];
-
-    var txt = document.getElementsByTagName("h1");
-    for (var i=0; i < txt.length; i++) {
-        text.push(txt[i].innerText);
-    }
-    console.log(txt);
-
-    console.log(text);
-
-})();
 
 
+/* Please ❤ this if you like it! */
 
-//   ​var array = [];
 
-// (function(){
-//     var elements = document.getElementsByTagName("h3");
-//     for (var i = 0; i < elements.length; i++) {
-//         array.push(elements[i].innerText);
+(function($) { "use strict";
+		
+	//Page cursors
+
+//     document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
+//         t.style.left = n.clientX + "px", 
+// 		t.style.top = n.clientY + "px", 
+// 		e.style.left = n.clientX + "px", 
+// 		e.style.top = n.clientY + "px", 
+// 		i.style.left = n.clientX + "px", 
+// 		i.style.top = n.clientY + "px"
+//     });
+//     var t = document.getElementById("cursor"),
+//         e = document.getElementById("cursor2"),
+//         i = document.getElementById("cursor3");
+//     function n(t) {
+//         e.classList.add("hover"), i.classList.add("hover")
 //     }
-// })();
+//     function s(t) {
+//         e.classList.remove("hover"), i.classList.remove("hover")
+//     }
+//     s();
+//     for (var r = document.querySelectorAll(".hover-target"), a = r.length - 1; a >= 0; a--) {
+//         o(r[a])
+//     }
+//     function o(t) {
+//         t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
+//     }
+	
+	//Navigation
 
-// ​alert(array);​
+	var app = function () {
+		var body = undefined;
+		var menu = undefined;
+		var menuItems = undefined;
+		var init = function init() {
+			body = document.querySelector('body');
+			menu = document.querySelector('.menu-icon');
+			menuItems = document.querySelectorAll('.nav__list-item');
+			applyListeners();
+		};
+		var applyListeners = function applyListeners() {
+			menu.addEventListener('click', function () {
+				return toggleClass(body, 'nav-active');
+			});
+		};
+		var toggleClass = function toggleClass(element, stringClass) {
+			if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
+		};
+		init();
+	}();
+
+	
+	//Switch light/dark
+	
+	$("#switch").on('click', function () {
+		if ($("body").hasClass("light")) {
+			$("body").removeClass("light");
+			$("#switch").removeClass("switched");
+		}
+		else {
+			$("body").addClass("light");
+			$("#switch").addClass("switched");
+		}
+	});
+	
+})(jQuery); 
+
+
+window.addEventListener('scroll', function() {
+    var elmnt = document.getElementById("naardit");
+    elmnt.scrollIntoView();
+    console.log("dnsbf");
+});
+
+
+// window.addEventListener('scroll', function() {
+//     document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px';
+// });
+
+
+{/* <div id="myDIV">
+  <div id="content">
+  Some text inside an element.
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var elmnt = document.getElementById("content");
+  elmnt.scrollIntoView();
+} */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

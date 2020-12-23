@@ -11,7 +11,7 @@
 
     <!-- Scripts -->
     <script type="text/javascript" src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/welcome.js') }}" defer></script>
+    <script src="{{ asset('js/navbar.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -28,44 +28,37 @@
 
     <script src="https://kit.fontawesome.com/06a651c8da.js" crossorigin="anonymous"></script>
     <!-- Styles -->
-    <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
-    <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- <link href="{{ asset('css/navbar.css') }}" rel="stylesheet"> -->
+    <!-- <link href="{{ asset('css/footer.css') }}" rel="stylesheet"> -->
 
     
 
 </head>
 <body>
-<header class="cd-header">
-		<div class="header-wrapper">
-			<div class="logo-wrap">
-				<a href="/" class="hover-target"><span>Gecko</span>Webdevelopment</a>
-			</div>
-			<div class="nav-but-wrap">
-				<div class="menu-icon hover-target">
-					<span class="menu-icon__line menu-icon__line-left"></span>
-					<span class="menu-icon__line"></span>
-					<span class="menu-icon__line menu-icon__line-right"></span>
-				</div>					
-			</div>					
-		</div>				
-	</header>
+<!-- <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/"> Home</a>
+    <a href="">Kunstwerken</a>
+    <a href="">Kunstenaars</a>
+    <a href="">Over ons</a>
+    <a href="">Contact</a>
+</div> -->
+<header id="header">
 
-	<div class="nav">
-		<div class="nav__content">
-			<ul class="nav__list">
-				<li class="nav__list-item active-nav"><a href="#" class="hover-target">Home</a></li>
-				<li class="nav__list-item"><a href="#" class="hover-target">Ons werk</a></li>
-				<li class="nav__list-item"><a href="#" class="hover-target">Nieuws</a></li>
-				<li class="nav__list-item"><a href="{{ route('contact')}}" class="hover-target">Contact</a></li>
-			</ul>
-		</div>
-	</div>		
+                <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
 
-    <main class="">
+</header>
 
-        @yield('content')
-        @extends('footer')
 
-    </main>
-    </body>
+
+
+
+        <main class="">
+
+            @yield('content')
+            @extends('footer')
+
+        </main>
+</body>
 </html>
