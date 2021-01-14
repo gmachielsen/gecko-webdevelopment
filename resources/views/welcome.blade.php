@@ -41,9 +41,11 @@
         <h1 class="caption">Welkom bij<br/>Gecko Webdevelopment</h1>
       </div>
       <div class="paragraph" style="display: block;">
-        <p>Het bureau voor webcreaties </p>
+        <p>De partner voor webcreaties </p>
       </div>
-
+      <div class="tokeh">
+        <img src="cover/tokeh.png" alt="">
+      </div>
     </section>
     <section class="page second_page">
       <h1 class="caption">Wij zijn toonaangevend in websites <br/>Benieuwd? > Klik link</h1>

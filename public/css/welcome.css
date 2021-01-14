@@ -34,9 +34,11 @@ body {
 			transition: all 4s;
 }
 .first_page {
-	
-	background: rgb(255,64,11)!important;
-	background: linear-gradient(90deg, rgba(255,64,11,0.4990589985994398) 0%, rgba(58,165,255,0.4990589985994398) 100%)!important;
+	background: rgb(255,35,35)!important;
+	background: linear-gradient(141deg, rgba(255,35,35,0.4906556372549019) 0%, rgba(58,165,255,0.4990589985994398) 100%)!important;
+
+	/* background: rgb(255,64,11)!important;
+	background: linear-gradient(90deg, rgba(255,64,11,0.4990589985994398) 0%, rgba(58,165,255,0.4990589985994398) 100%)!important; */
 
 	/* background: rgb(255,5,5)!important;
 	background: linear-gradient(90deg, rgba(255,5,5,0.4990589985994398) 0%, rgba(24,62,199,0.4990589985994398) 100%)!important; */
@@ -534,9 +536,19 @@ header a {
 
 
 
+.page .first_page {
+	background-image: url("cover/tokeh.png");
+	width: 100%!important;
+	height:100vh!important;
+	background-position: center center;
 
+	display: flex;
+	flex-direction: column;
+}
 
-
+.page .first_page {
+	position: absolute;
+}
 
 
 
