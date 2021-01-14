@@ -1,16 +1,21 @@
 @extends('layouts.app')
 @push('styles')
-    <link href="{{ asset('css/contact.css') }}" rel="stylesheet">
+    <!-- <link href="{{ asset('css/contact.css') }}" rel="stylesheet"> -->
 @endpush
 @push('scripts')
     <script src=""></script>
 @endpush
 @section('content')
-<section class="mb-4" style="padding: 30px;">
+<div class="containter">
+    <div class="row">
+        <div class="col-12 title">
+            <h1>Gecko Webdevelopment</h1>
+        </div>
+    </div>
+</div>
+<!-- <section class="mb-4" style="padding: 30px;">
 
-    <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contactformulier</h2>
-    <!--Section description-->
     <p class="text-center w-responsive mx-auto mb-5">Via dit contactformulier kunt u contact opnemen met artisthub</p>
 
     <div class="row">
@@ -19,14 +24,11 @@
     <div class="alert alert-success">{{ Session::get('message') }}</div>
     @endif
     </div>
-        <!--Grid column-->
         <div id="section" class="col-md-12 mb-md-0 mb-9">
             <form id="contact-form" name="contact-form" action="{{ route('send.post')}}" method="POST">
                 @csrf
-                <!--Grid row-->
                 <div class="row">
 
-                    <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <br>
@@ -34,9 +36,7 @@
                             <input type="text" id="name" name="name" class="form-control">
                         </div>
                     </div>
-                    <!--Grid column-->
 
-                    <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <br>
@@ -45,12 +45,9 @@
                             <input type="hidden" id="mailto" name="mailto" value="g.machielsen@gmail.com">
                         </div>
                     </div>
-                    <!--Grid column-->
 
                 </div>
-                <!--Grid row-->
 
-                <!--Grid row-->
                 <div class="row">
                     <div class="col-md-12">
                         <div class="md-form mb-0">
@@ -60,12 +57,9 @@
                         </div>
                     </div>
                 </div>
-                <!--Grid row-->
 
-                <!--Grid row-->
                 <div class="row">
 
-                    <!--Grid column-->
                     <div class="col-md-12">
 
                         <div class="md-form">
@@ -76,7 +70,6 @@
 
                     </div>
                 </div>
-                <!--Grid row-->
 
 
             <div class="text-center text-md-left">
@@ -87,9 +80,7 @@
         </div>
         </form>
 
-        <!--Grid column-->
 
-        <!--Grid column-->
         
 
 </div>
@@ -97,7 +88,6 @@
 <br><br>
 <hr>
 </section>
-<!--Section: Contact v.2-->
 <section>
 <div class="container text-center">
 
@@ -115,10 +105,9 @@
                 <p>g.machielsen@gmail.com</p>
             </div>
  
-        <!--Grid column-->
         </div>
     </div>
 </div>
 <br><br><br>
-</section>
+</section> -->
 @endsection

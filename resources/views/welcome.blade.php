@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @push('styles')
-<link href="{{ asset('css/portfolio.css') }}" rel="stylesheet">
-<!-- <link href="{{ asset('css/welcome.css') }}" rel="stylesheet"> -->
+<link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
 
 @endpush
 @push('scripts')
@@ -38,8 +37,13 @@
       <!-- <a href="mailto: nik.message@gmail.com"> feedback&nbsp; <i class="fas fa-envelope-open fa-sm"></i></a> -->
     </section>
     <section class="page first_page">
-      <h1 class="caption">Welkom bij<br/>Gecko Webdevelopment</h1>
-      <p>Het bureau voor webcreaties </p>
+      <div class="text" style="width: 68%;">
+        <h1 class="caption">Welkom bij<br/>Gecko Webdevelopment</h1>
+      </div>
+      <div class="paragraph" style="display: block;">
+        <p>Het bureau voor webcreaties </p>
+      </div>
+
     </section>
     <section class="page second_page">
       <h1 class="caption">Wij zijn toonaangevend in websites <br/>Benieuwd? > Klik link</h1>
