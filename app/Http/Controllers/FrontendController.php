@@ -10,4 +10,9 @@ class FrontendController extends Controller
     {
         return view('contact');
     }
+
+    public function portfolio()
+    {
+        return view('portfolio');
+    }
 }
