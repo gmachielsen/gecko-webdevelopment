@@ -41,20 +41,32 @@
         <h1 class="caption">Welkom bij<br/>Gecko Webdevelopment</h1>
       </div>
       <div class="paragraph" style="display: block;">
-        <!-- <p>De partner voor webcreaties </p> -->
       </div>
       <div class="tokeh">
         <img src="cover/tokeh.png" alt="">
       </div>
     </section>
     <section class="page second_page">
-      <h1 class="caption">Wij zijn toonaangevend in websites <br/>Benieuwd? > Klik link</h1>
+    <div class="text" style="width: 68%;">
+      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">En wij bouwen websites met passie <br/></h1>
+    </div>
+    <div class="grandis">
+        <img src="cover/grandis.png" alt="">
+      </div>
+
     </section>
     <section class="page third_page">
-      <h1 class="caption">High <br/>Page speed</h1>
+    <div class="text" style="width: 68%;">
+      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">Benieuwd wat wij kunnen betekenen? <br/><a href="">Ja!? >> Klik! <<</a></h1>
+    </div>
     </section>
     <section class="page fourth_page">
-      <h1 class="caption">Contacteer  Ons! <br/>link</h1>
+    <div class="text" style="width: 68%;">
+      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">Contacteer ons <br/></h1>
+    </div>
+    <div class="pardalis">
+        <img src="cover/pardalis.png" alt="">
+      </div>    
     </section>
           <!-- &amp; -->
 
