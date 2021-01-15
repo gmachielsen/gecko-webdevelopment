@@ -41,7 +41,7 @@
         <h1 class="caption">Welkom bij<br/>Gecko Webdevelopment</h1>
       </div>
       <div class="paragraph" style="display: block;">
-        <p>De partner voor webcreaties </p>
+        <!-- <p>De partner voor webcreaties </p> -->
       </div>
       <div class="tokeh">
         <img src="cover/tokeh.png" alt="">
@@ -55,6 +55,7 @@
     </section>
     <section class="page fourth_page">
       <h1 class="caption">Contacteer  Ons! <br/>link</h1>
-      <!-- &amp; -->
     </section>
+          <!-- &amp; -->
+
 @endsection

@@ -547,8 +547,27 @@ header a {
 }
 
 .page .first_page {
-	position: absolute;
+	position: relative;
 }
+
+.tokeh {
+	object-fit: cover;
+	justify-content: flex-start;
+	align-items: flex-end;
+	display: flex;
+	width: 100%!important;
+	height:100vh!important;
+	position: absolute;
+	z-index: -10;
+}
+
+.tokeh img {
+    margin-left: -8%;
+	width: 105%;
+	margin-bottom: -1%;
+	height: auto;
+}
+
 
 
 
@@ -568,4 +587,18 @@ header a {
 
 a {
 	color: white !important;
+}
+
+
+
+.caption {
+    transform: translate(0px, 500px);
+    font-size: 8rem;
+    font-weight: 900;
+    line-height: 1;
+    color: white;
+    position: relative;
+    top: 45.5%;
+    left: 14%;
+    position: absolute;
 }
