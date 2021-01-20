@@ -38,7 +38,10 @@
     </section>
     <section class="page first_page">
       <div class="text" style="width: 68%;">
-        <h1 class="caption">Welkom bij<br/>Gecko Webdevelopment</h1>
+        <div class="col-sm-12">
+          <h1 class="caption"><span class="span">GeckoWebdevelopment</span><br/>agency voor Webontwikkeling</h1>
+
+        </div>
       </div>
       <div class="paragraph" style="display: block;">
       </div>
@@ -47,18 +50,63 @@
       </div>
     </section>
     <section class="page second_page">
-    <div class="text" style="width: 68%;">
-      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">En wij bouwen websites met passie <br/></h1>
-    </div>
-    <div class="grandis">
-        <img src="cover/grandis.png" alt="">
+      <div class="container text-center">
+        <div class="diensten">
+          <h1>Onze Diensten</h1>  
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-12 col-xl-4">
+            <h2>Website Ontwikkeling</h2>
+            <div class="icon">
+              <img src="cover/web-development.png" alt="">          
+            </div>
+            <br>
+            <p>Van bedrijfspagina tot webshop tot mobiele web</p>
+          </div>
+          <div class="col-12 col-md-12 col-lg-12 col-xl-4">
+            <h2>Online Marketing</h2>
+            <div class="icon">
+              <img src="cover/bullhorn.png" alt="">          
+            </div>
+            <br>
+            <p>Laat uw bedrijf online
+              opvallen en zorg ervoor
+              dat uw bereik groeit.</p>
+          </div>
+          <div class="col-12 col-md-12 col-lg-12 col-xl-4">
+            <h2>Website-Onderhoud</h2>
+            <div class="icon">
+              <img src="cover/maintenance.png" alt="">          
+            </div>
+            <br>
+            <p>Uw website up-to-date. Wordpress website onderhouden? Kom maar!</p>
+          </div>
+        </div>
+
       </div>
+    <!-- <div class="text" style="width: 68%;">
+      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">En wij bouwen websites met passie <br/></h1>
+    </div> -->
+    <!-- <div class="grandis">
+        <img src="cover/grandis.png" alt="">
+      </div> -->
 
     </section>
     <section class="page third_page">
-    <div class="text" style="width: 68%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 mx-4">
+              <h1>Benieuwd naar onze cases?</h1>
+              <p>Klik hier!</p>
+          </div>
+          <div class="col-6">
+
+          </div>
+        </div>
+      </div>
+    <!-- <div class="text" style="width: 68%;">
       <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">Benieuwd wat wij kunnen betekenen? <br/><a href="">Ja!? >> Klik! <<</a></h1>
-    </div>
+    </div> -->
     </section>
     <section class="page fourth_page">
     <div class="text" style="width: 68%;">

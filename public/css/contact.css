@@ -1,13 +1,60 @@
 body {
     /* background-color: darkslategray!important; */
     height: 100vh;
-    background: rgb(255,101,101)!important;
-    background: linear-gradient(141deg, rgba(255,101,101,1) 0%, rgba(255,190,58,0.4990589985994398) 100%)!important;
-    color: lightcyan!important;
+
+    /* background: rgb(255,35,35)!important; */
+	/* background: linear-gradient(141deg, rgba(255,35,35,0.4906556372549019) 0%, rgba(58,165,255,0.4990589985994398) 100%)!important; */
+    /* background-color: rgb(160, 136, 132)!important; */
+    /* background-color: #ffe5e5!important; */
+    color: white!important ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* background-color: #fffead;
+    background-color: coral;
+    background-color: #ff5f45;
+    background-color: #fc6c7c; */
+  
+    
+  
+    
+  
+      /* background-image: linear-gradient(90deg, lightblue 1px, transparent 1px)!important;
+      background-size: 20%; */
 }
 
-.container {
+p, h1 {
+    /* text-shadow: 0.1px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black!important; */
+    color: gray;
+    font-size: 2em;
+}
+
+.whitespace {
+    height: 20%!important;
+}
+/* .contactpage {
+    margin-top: 30%;
+} */
+
+@media (min-width: 750px) {
+	.page {
+		margin-top: 30%;
+	}
+}
+@media (min-width: 1250px) {
+	.page {
+		margin-top: 15%;
+	}
+}
+
+@media (min-width: 1450px) {
+	.page {
+		margin-top: 12%;
+	}
+}
+
+
+
+/* .container {
     font-family: fangsong !important;
     font-weight: bold !important;
 }
@@ -51,4 +98,46 @@ body {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+
+
+.formintput {
+    background-color: transparent!important;
+    border-color: none!important;
+    background: none;
+    color: #fff;
+    outline: 0!important;
+    border: none!important;
+    border-bottom: 2px solid #fff!important;
+    margin: 0px 0 0;
+    padding: 0 0 7px;
+    width: 100%;
+}
+
+.formbutton {
+    background: #fff !important;
+    color: #004fff !important;
+    width: auto !important;
+    height: 50px !important;
+    border-radius: 25px !important;
+    padding: 0 20px !important;
+    border: none !important;
+    margin: 0px 0 0 !important;
+    padding: 0 70px!important;
+
+}
+
+input::placeholder {
+    opacity: 1!important;
+    color: white!important;
+}
+
+.form-control {
+    /* border: none!important; */
+}
+
+.memo {
+    padding: 50px;
+    background-color: #5959ce;
+    
 }
