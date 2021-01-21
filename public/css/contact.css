@@ -8,7 +8,7 @@ body {
     /* background-color: #ffe5e5!important; */
     color: white!important ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+background-color: rgb(255 179 179)!important;
     /* background-color: #fffead;
     background-color: coral;
     background-color: #ff5f45;
@@ -24,7 +24,7 @@ body {
 
 p, h1 {
     /* text-shadow: 0.1px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black!important; */
-    color: gray;
+    color: white;
     font-size: 2em;
 }
 
@@ -129,7 +129,7 @@ p, h1 {
 
 input::placeholder {
     opacity: 1!important;
-    color: white!important;
+    color: rgb(255 179 179)!important;
 }
 
 .form-control {
@@ -138,6 +138,7 @@ input::placeholder {
 
 .memo {
     padding: 50px;
-    background-color: #5959ce;
+    background-color: #e4f3fc;
+    color: rgb(255 179 179)!important;
     
 }

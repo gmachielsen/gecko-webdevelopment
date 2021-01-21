@@ -86,7 +86,7 @@
       </div> -->
       <!-- <h1>Wat we doen?</h1> -->
     
-      <a style="margin-top: 94px;" class="logo" href="#" onclick="return false"><h8 style="color: black;">Wat we doen?</h8></a>
+      <a style="margin-top: 94px;" class="logo" href="{{ route('our.work')}}" onclick="return false"><h8 style="color: black;">Wat we doen?</h8></a>
 
       <h1 class="caption">Online Marketing, <br/> Websites <br/> &amp; Onderhoud</h1>
 
@@ -99,7 +99,7 @@
 
     </section>
     <section class="page third_page">
-    <h8 style="margin-bottom: 10px; "><a style="margin-top: 94px;" class="logo" href="#" onclick="return false"> >> Bekijk ons werk <<</a></8>
+    <h8 style="margin-bottom: 10px; "><a style="margin-top: 94px;" class="logo" href="{{ route('our.work')}}" onclick="return true"> >> Bekijk ons werk <<</a></8>
     <h1 class="caption">Benieuwd naar <br/> ons werk?</h1>
 
       <!-- <div class="container">

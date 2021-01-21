@@ -35,6 +35,15 @@ body, html {
   transition: transform 1350ms, -webkit-transform 1350ms;
 }
 
+.slider-page--right .slider-page__content {
+  padding-left: 0!important;
+}
+
+.slider-page--left .slider-page__content {
+  padding-right: 0!important;
+}
+
+
 .slider-page--skew {
   overflow: hidden;
   position: absolute;
@@ -42,8 +51,8 @@ body, html {
   width: 140%;
   height: 100%;
   background: #282828;
-  -webkit-transform: skewX(-8deg);
-          transform: skewX(-8deg);
+  -webkit-transform: skewX(-0deg);
+          transform: skewX(-0deg);
 }
 
 .slider-page--left {
@@ -100,8 +109,8 @@ body, html {
   padding: 0 30% 0 30%;
   color: #e2e2e2;
   background-size: cover;
-  -webkit-transform: skewX(8deg);
-          transform: skewX(8deg);
+  -webkit-transform: skewX(0deg);
+          transform: skewX(0deg);
   -webkit-transition: -webkit-transform 1350ms;
   transition: -webkit-transform 1350ms;
   transition: transform 1350ms;
@@ -186,8 +195,8 @@ body, html {
 }
 
 .js-scrolling--inactive .slider-page__content {
-  -webkit-transform: skewX(8deg) scale(0.9);
-          transform: skewX(8deg) scale(0.9);
+  -webkit-transform: skewX(0deg) scale(0.9);
+          transform: skewX(0deg) scale(0.9);
 }
 
 .js-scrolling__page-1 .slider-page--left .slider-page__content {
@@ -195,7 +204,7 @@ body, html {
 }
 
 .js-scrolling__page-1 .slider-page--right .slider-page__content {
-  background-color:  #343a40!important;
+  background-color:  #080001!important;
 }
 
 .js-scrolling__page-2 .slider-page--left .slider-page__content {
@@ -212,7 +221,8 @@ body, html {
 }
 
 .js-scrolling__page-3 .slider-page--left .slider-page__content {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/4c/d8/7b/4cd87bc93cca92f76285c061cef16585.jpg");
+  background-image: url("../cover/madebyloni.png");
+  filter: grayscale(100%);
 }
 
 .js-scrolling__page-3 .slider-page--right .slider-page__content {
@@ -221,7 +231,9 @@ body, html {
 
 
 .js-scrolling__page-4 .slider-page--left .slider-page__content {
-  background-color: #e4f3fc;
+  background-color: lightgray;
+
+  /* background-color: #e4f3fc; */
 }
 
 .js-scrolling__page-4 .slider-page--left .slider-page__title,
@@ -230,6 +242,6 @@ body, html {
 }
 
 .js-scrolling__page-4 .slider-page--right .slider-page__content {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7a/8d/51/7a8d51f4968960334274ac7959d31a7d.jpg");
+  background-image: url("../cover/yellowchameleon.jpg");
 }
 /*# sourceMappingURL=test.css.map */

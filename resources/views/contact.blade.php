@@ -17,18 +17,18 @@
     </div>
     <div class="row">
         <div class="col-12 col-md-6 col-lg-6 col-xl-6-offset-3">
-            <div class="fs-2 mb-3 text-center"><p>Heb jij vragen of plannen voor een website en denk je dat we je daar wellicht bij kunnen helpen? Neem geheel vrijblijvend contact met ons op.</p></div>
+            <div class="fs-2 mb-3 text-center"><p>Is de eerste stap naar resultaat</p></div>
             
             <a class="d-block arrowlink fs-2 mt-lg-5 mb-3 text-center" href="https://www.google.nl/maps/dir//Prinsenboschlaan+32,+Prinsenbeek/@51.3152735,4.8326522,141122m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x47c4201e5f955627:0x1db24007e0413184!2m2!1d4.7127148!2d51.5915355" target="_blank">
-            <p>Route naar de agency</p>
+            <!-- <p>Route naar de agency</p> -->
             </a>
-            <div class="d-flex flex-column mb-3">
+            <!-- <div class="d-flex flex-column mb-3">
                 <div><p>Gecko Webdevelopment</p></div>
                 <div><p>Prinsenboschlaan 32</p></div>
                 <div class="mb-3"><p>4841 MA PRINSENBEEK</p></div>
                 <div><p>+31 6 - 11864118</p></div>
                 <div><p>g.machielsen@gmail.com</p></div>
-            </div>
+            </div> -->
             <div class="text-center social-icons">
             <a href="https://facebook.com/geckowebdevelopment" target="_blank">Facebook</a>
             <a href="https://www.linkedin.com/company/geckowebdevelopment" target="_blank">LinkedIn</a>
@@ -42,7 +42,8 @@
             <h2 class="fs-3">Neem contact op.</h2>
             <div role="form" class="wpcf7" id="wpcf7-f95-p13-o1" lang="nl-NL" dir="ltr">
             <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-            <form action="/contact#wpcf7-f95-p13-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+            <form action="{{ route('send.post')}}" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                @csrf
             <div style="display: none;">
             <!-- <input type="hidden" name="_wpcf7" value="95">
             <input type="hidden" name="_wpcf7_version" value="5.3.1">
