@@ -119,14 +119,14 @@ body, html {
 
 .slider-page__title {
   margin-bottom: 1em;
-  font-size: 1em;
+  /* font-size: 5em; */
   text-align: center;
   text-transform: uppercase;
   color: white!important
 
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 700px){
   .logo-wrap a {
     font-size: 8px!important;
   }
@@ -156,9 +156,39 @@ body, html {
     color: white!important
 
   }
+
+  
 }
 
+@media screen and (max-width: 1600){
+  .slider-page__title {
+    margin-bottom: 1em;
+    font-size: 3.5em;
+    color: white!important
 
+  }
+  .slider-page__title--big {
+    font-size: 4.5em!important;
+    font-weight: 600!important;
+    color: white!important
+
+  }
+}
+
+@media screen and (min-width: 1601){
+  .slider-page__title {
+    margin-bottom: 1em;
+    font-size: 5em;
+    color: white!important
+
+  }
+  .slider-page__title--big {
+    font-size: 6em!important;
+    font-weight: 600!important;
+    color: white!important
+
+  }
+}
 
 .slider-page__title--big {
   font-size: 2.5em;

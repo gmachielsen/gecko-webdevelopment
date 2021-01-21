@@ -97,14 +97,11 @@
       <div class="slider-page--skew">
         <div class="slider-page__content">
           <h1 class="slider-page__title">
-            Final is just the beginning
+            Made-by-Loni
           </h1>
           <!-- /.slider-page__title -->
           <p class="slider-page__description">
-            Feel free to follow me on <a class="slider-page__link" href="https://twitter.com/WispProxy"
-                                         target="_blank">Twitter</a>
-            and check of <a class="slider-page__link" href="https://codepen.io/WispProxy/pens/public"
-                            target="_blank">my other works</a>
+              webhop in kleding en sieraden
           </p>
           <!-- /.slider-page__description -->
         </div>

@@ -22,6 +22,25 @@ background-color: rgb(255 179 179)!important;
       background-size: 20%; */
 }
 
+.container, .row {
+    margin: 0!important;
+    padding: 0!important;
+}
+.left {
+    background-color: lightgray!important;
+    width: 100%!important;
+    height: 100%!important;
+    margin: 0!important;
+    padding: 0!important;
+
+}
+
+.right {
+    height: 100%!important;
+    background-color: lightpink!important;
+    width: 100%!important;
+}
+
 p, h1 {
     /* text-shadow: 0.1px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black!important; */
     color: white;
