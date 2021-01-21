@@ -13,8 +13,8 @@
   padding: 0;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
+body, html {
+	font-family: 'Montserrat', sans-serif;
   background-color: #282828;
 }
 
@@ -113,10 +113,47 @@ body {
   font-size: 1em;
   text-align: center;
   text-transform: uppercase;
+  color: white!important
+
 }
 
+@media screen and (max-width: 680px){
+  .logo-wrap a {
+    font-size: 8px!important;
+  }
+  .slider-page__title {
+    margin-bottom: 1em;
+    font-size: 10.8px;
+    color: white!important
+  }
+  .slider-page__title--big {
+    font-size: 1.5em!important;
+    font-weight: 600!important;
+    color: white!important
+
+  }
+}
+
+@media screen and (max-width: 1200){
+  .slider-page__title {
+    margin-bottom: 1em;
+    font-size: 2.5em;
+    color: white!important
+
+  }
+  .slider-page__title--big {
+    font-size: 3.5em!important;
+    font-weight: 600!important;
+    color: white!important
+
+  }
+}
+
+
+
 .slider-page__title--big {
-  font-size: 1.2em;
+  font-size: 2.5em;
+  font-weight: 600;
 }
 
 .slider-page__description {
@@ -154,15 +191,15 @@ body {
 }
 
 .js-scrolling__page-1 .slider-page--left .slider-page__content {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/a6/6a/a3/a66aa3134eb9f439838e676297a75bd6.jpg");
+  background-image: url("../cover/artisthub.png");
 }
 
 .js-scrolling__page-1 .slider-page--right .slider-page__content {
-  background-color:  rgb(255 179 179)!important;
+  background-color:  #343a40!important;
 }
 
 .js-scrolling__page-2 .slider-page--left .slider-page__content {
-  background-color: #e4f3fc;
+  background-color: #1e7e34;
 }
 
 .js-scrolling__page-2 .slider-page--left .slider-page__title,
@@ -171,7 +208,7 @@ body {
 }
 
 .js-scrolling__page-2 .slider-page--right .slider-page__content {
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7a/8d/51/7a8d51f4968960334274ac7959d31a7d.jpg");
+  background-image: url("../cover/it-jobvinder.png");
 }
 
 .js-scrolling__page-3 .slider-page--left .slider-page__content {

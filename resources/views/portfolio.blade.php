@@ -23,15 +23,17 @@
       <div class="slider-page--skew">
         <div class="slider-page__content">
           <h1 class="slider-page__title slider-page__title--big">
-            Gray & White - Skewed Slider with Scrolling
+            Artisthub
           </h1>
           <!-- /.slider-page__title slider-page__title--big -->
           <h2 class="slider-page__title">
-            Start of your story
+            Marktplaats voor kunst
           </h2>
           <!-- /.slider-page__title -->
           <p class="slider-page__description">
-            Please scroll down or press the down arrow on your keyboard
+            <br>
+            <a type="button"  href="https://www.artisthub.geckowebdevelopment.nl/">Bekijk website</a>
+           
           </p>
           <!-- /.slider-page__description -->
         </div>
@@ -48,13 +50,17 @@
     <div class="slider-page slider-page--left">
       <div class="slider-page--skew">
         <div class="slider-page__content">
+        <h1 class="slider-page__title slider-page__title--big">
+            IT-jobvinder
+          </h1>
           <h1 class="slider-page__title">
-            Now you are here
+          Vacaturewebsite
           </h1>
           <!-- /.slider-page__title -->
-          <p class="slider-page__description">
-            Please continue scrolling
-          </p>
+          <!-- <p class="slider-page__description"> -->
+          <br>
+            <a type="button"  href="http://www.it-jobvinder.geckowebdevelopment.nl/">Bekijk website</a>
+                     <!-- </p> -->
           <!-- /.slider-page__description -->
         </div>
         <!-- /.slider-page__content -->
