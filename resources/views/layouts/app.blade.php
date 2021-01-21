@@ -67,8 +67,8 @@
 		<div class="nav__content">
 			<ul class="nav__list">
 				<li class="nav__list-item active-nav"><a href="#" class="hover-target">Home</a></li>
-				<li class="nav__list-item"><a href="{{ route('our.work')}}" class="hover-target">Ons werk</a></li>
-				<li class="nav__list-item"><a href="#" class="hover-target">Nieuws</a></li>
+				<li class="nav__list-item"><a href="{{ route('our.work')}}" class="hover-target">diensten</a></li>
+				<li class="nav__list-item"><a href="#" class="hover-target">Ons werk</a></li>
 				<li class="nav__list-item"><a href="{{ route('contact')}}" class="hover-target">Contact</a></li>
 			</ul>
 		</div>

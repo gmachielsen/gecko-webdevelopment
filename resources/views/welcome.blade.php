@@ -37,12 +37,12 @@
       <!-- <a href="mailto: nik.message@gmail.com"> feedback&nbsp; <i class="fas fa-envelope-open fa-sm"></i></a> -->
     </section>
     <section class="page first_page">
-      <div class="text" style="width: 68%;">
-        <div class="col-sm-12">
-          <h1 class="caption"><span class="span">GeckoWebdevelopment</span><br/>agency voor Webontwikkeling</h1>
+      <!-- <div class="text" style="width: 68%;">
+        <div class="col-sm-12"> -->
+          <h1 class="caption">GeckoWebdevelopment<br/>agency voor Webontwikkeling</h1>
 
-        </div>
-      </div>
+        <!-- </div>
+      </div> -->
       <div class="paragraph" style="display: block;">
       </div>
       <div class="tokeh">
@@ -50,7 +50,7 @@
       </div>
     </section>
     <section class="page second_page">
-      <div class="container text-center">
+      <!-- <div class="container text-center">
         <div class="diensten">
           <h1>Onze Diensten</h1>  
         </div>
@@ -83,7 +83,13 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
+      <!-- <h1>Wat we doen?</h1> -->
+    
+      <a style="margin-top: 94px;" class="logo" href="#" onclick="return false"><h8 style="color: black;">Wat we doen?</h8></a>
+
+      <h1 class="caption">Online Marketing, <br/> Websites <br/> &amp; Onderhoud</h1>
+
     <!-- <div class="text" style="width: 68%;">
       <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">En wij bouwen websites met passie <br/></h1>
     </div> -->
@@ -93,24 +99,28 @@
 
     </section>
     <section class="page third_page">
-      <div class="container">
+    <h8 style="margin-bottom: 10px; "><a style="margin-top: 94px;" class="logo" href="#" onclick="return false"> >> Bekijk ons werk <<</a></8>
+    <h1 class="caption">Benieuwd naar <br/> ons werk?</h1>
+
+      <!-- <div class="container">
         <div class="row">
           <div class="col-6 mx-4">
-              <h1>Benieuwd naar onze cases?</h1>
               <p>Klik hier!</p>
           </div>
           <div class="col-6">
 
           </div>
         </div>
-      </div>
+      </div> -->
     <!-- <div class="text" style="width: 68%;">
       <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">Benieuwd wat wij kunnen betekenen? <br/><a href="">Ja!? >> Klik! <<</a></h1>
     </div> -->
     </section>
     <section class="page fourth_page">
+    <h8 style="color: black; font-weight: bold;"><a style="margin-top: 94px; color: black;" class="logo" href="{{ route('contact')}}" onclick="return false">Ons benaderen?</a></h8>
+
     <div class="text" style="width: 68%;">
-      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">Contacteer ons <br/></h1>
+      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;"><a class="caption" href="{{ route('contact')}}">Contacteer ons! <br/>Vinden we leuk!</a></h1>
     </div>
     <div class="pardalis">
         <img src="cover/pardalis.png" alt="">
