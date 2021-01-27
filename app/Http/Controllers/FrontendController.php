@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Website;
 
 class FrontendController extends Controller
 {
@@ -13,6 +14,12 @@ class FrontendController extends Controller
 
     public function portfolio()
     {
-        return view('portfolio');
+        $websites = Website::all();
+        return view('portfolio', compact('websites'));
+    }
+    public function diensten()
+    {
+        $websites = Website::all();
+        return view('diensten', compact('websites'));
     }
 }

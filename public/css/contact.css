@@ -22,23 +22,78 @@ background-color: rgb(255 179 179)!important;
       background-size: 20%; */
 }
 
-.container, .row {
-    margin: 0!important;
-    padding: 0!important;
+.caption {
+    /* transform: translate(0px, 500px); */
+    /* font-size: 8rem; */
+    font-weight: 900;
+    line-height: 1;
+    color: white;
+    position: relative;
+    top: 45.5%;
+    left: 14%;
+    position: absolute;
 }
+
+.left, .right {
+    height: 100vh;
+    width: 100%;
+}
+
 .left {
-    background-color: lightgray!important;
-    width: 100%!important;
-    height: 100%!important;
-    margin: 0!important;
-    padding: 0!important;
+    background: rgb(255 179 179)!important;
+    position: relative;
 
 }
 
 .right {
-    height: 100%!important;
-    background-color: lightpink!important;
-    width: 100%!important;
+    background: #e4f3fc;
+}
+
+.tokeh {
+	object-fit: cover;
+	justify-content: flex-start;
+	align-items: flex-end;
+	display: flex;
+	width: 100%!important;
+	height:100vh!important;
+	position: absolute;
+	/* z-index: -10; */
+	z-index: 0;
+}
+
+.tokeh img {
+    margin-left: -8%;
+	width: 105%;
+	margin-bottom: 0%;
+    height: auto;
+    padding: 0;
+}
+
+.forminput {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 2.75rem + 2px)!important;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8167a9!important;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+
+ .opmerking {
+    background: transparent!important;
+    border: none!important;
+}
+
+.form {
+    padding-left: 63px;
+    padding-right: 63px;
+    padding-top: 119px;
 }
 
 p, h1 {
@@ -54,7 +109,26 @@ p, h1 {
     margin-top: 30%;
 } */
 
-@media (min-width: 750px) {
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 4.5rem!important;
+    }
+
+    .caption {
+        top: 35.5%;
+    }
+
+    .form {
+        padding-top: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo-wrap a {
+        font-size: 12px!important;
+    }
+}
+@media (min-width: 750px, max-width 749px) {
 	.page {
 		margin-top: 30%;
 	}
@@ -135,7 +209,7 @@ p, h1 {
 
 .formbutton {
     background: #fff !important;
-    color: #004fff !important;
+    color: rgb(255 179 179) !important;
     width: auto !important;
     height: 50px !important;
     border-radius: 25px !important;
@@ -146,9 +220,11 @@ p, h1 {
 
 }
 
-input::placeholder {
+
+
+input::placeholder, textarea::placeholder {
     opacity: 1!important;
-    color: rgb(255 179 179)!important;
+    color: #8167a9!important;
 }
 
 .form-control {

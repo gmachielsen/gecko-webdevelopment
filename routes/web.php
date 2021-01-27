@@ -25,6 +25,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->middleware('admin');
 
 Route::get('/ons-werk', [App\Http\Controllers\FrontendController::class, 'portfolio'])->name('our.work');
+Route::get('/diensten', [App\Http\Controllers\FrontendController::class, 'diensten'])->name('diensten');
 
 Route::get('/contact', [App\Http\Controllers\FrontendController::class, 'contact'])->name('contact');
 Route::post('/contact/send', [App\Http\Controllers\EmailController::class, 'sendPost'])->name('send.post');

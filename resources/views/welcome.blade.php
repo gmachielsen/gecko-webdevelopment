@@ -18,8 +18,8 @@
       </div>
       <div class="dnav_point">
       </div>
-      <div class="dnav_point">
-      </div>
+      <!-- <div class="dnav_point">
+      </div> -->
       <div class="dnav_point">
       </div>
     </section>
@@ -33,6 +33,7 @@
       <a href="https://www.facebook.com/GeckoWebdevelopment-101967601883717" target="blank"><i class="fab fa-facebook-f fa-sm"></i></a>
       <a href="#" onclick="return false"><i class="fab fa-instagram fa-sm"></i></a>
       <a href="#" onclick="return false"><i class="fab fa-pinterest fa-sm"></i></a>
+      <a href="https://www.linkedin.com/company/71218508/" onclick="return true"><i class="fab fa-linkedin fa-sm"></i></a>
 
       <!-- <a href="mailto: nik.message@gmail.com"> feedback&nbsp; <i class="fas fa-envelope-open fa-sm"></i></a> -->
     </section>
@@ -98,9 +99,9 @@
       </div> -->
 
     </section>
-    <section class="page third_page">
-    <h8 style="margin-bottom: 10px; "><a style="margin-top: 94px;" class="logo" href="{{ route('our.work')}}" onclick="return true"> >> Bekijk ons werk <<</a></8>
-    <h1 class="caption">Benieuwd naar <br/> ons werk?</h1>
+    <!-- <section class="page third_page">
+    <h8 style="margin-bottom: 10px; "><a style="margin-top: 94px;" class="logo" href="{{ route('our.work')}}" onclick="return true"> >> Bekijk ons werk <<</a><h/8>
+    <h1 class="caption">Benieuwd naar <br/> ons werk?</h1> -->
 
       <!-- <div class="container">
         <div class="row">
@@ -115,9 +116,9 @@
     <!-- <div class="text" style="width: 68%;">
       <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">Benieuwd wat wij kunnen betekenen? <br/><a href="">Ja!? >> Klik! <<</a></h1>
     </div> -->
-    </section>
+    <!-- </section> -->
     <section class="page fourth_page">
-    <h8 style="color: black; font-weight: bold;"><a style="margin-top: 94px; color: black;" class="logo" href="{{ route('contact')}}" onclick="return false">Ons benaderen?</a></h8>
+    <h8 class="shorttext" style="color: black; font-weight: bold;"><a style="margin-top: 94px; color: black;" class="logo" href="{{ route('contact')}}" onclick="return false">Ons benaderen?</a></h8>
 
     <div class="text" style="width: 68%;">
       <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;"><a class="caption" href="{{ route('contact')}}">Contacteer ons! <br/>Vinden we leuk!</a></h1>

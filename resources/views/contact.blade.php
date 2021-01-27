@@ -6,16 +6,42 @@
     <script src=""></script>
 @endpush
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6 left">
-<h1>rr</h1>
+<!-- <div class="container"> -->
+    <div class="row no-gutters">
+        <div class="col-md-6 no-gutters">
+            <div class="left">
+            <h1 class="caption">Wilt u contact met ons opnemen? <br/>Of wij met u?</h1>
+
+                <div class="tokeh">
+                    <img src="cover/tokeh.png" alt="">
+                </div>
+            </div>
         </div>
-        <div class="col-sm-6 right">
-<h1>rrr</h1>
+        <div class="col-md-6 no-gutters">
+            <div class="right">
+                <div class="form">
+                <form action="{{ route('send.post')}}" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                        @csrf
+ 
+                    <p><span class="firstname"><input type="text" name="firstname" value="" size="40" class="form-control formintput" aria-required="true" aria-invalid="false" placeholder="Voornaam *"></span><br>
+                    <span class="lastname"><input type="text" name="lastname" value="" size="40" class="form-control formintput" aria-required="true" aria-invalid="false" placeholder="Achternaam *"></span><br>
+                    <span class="email"><input type="email" name="email" value="" size="40" class="form-control formintput" aria-required="true" aria-invalid="false" placeholder="E-mailadres *"></span><br>
+                    <span class="telefoon"><input type="tel" name="telefoon" value="" size="40" class="form-control formintput" aria-invalid="false" placeholder="Telefoonnummer *"></span><br>
+                    <span class="opmerking"><textarea name="opmerking" cols="40" rows="2" class="form-control" aria-invalid="false" placeholder="Opmerking" style="background-color: transparent;"></textarea></span><br>
+
+                    <!-- <span class="bedrijfsnaam"><input type="text" name="bedrijfsnaam" value="" size="40" class="form-control formintput " aria-invalid="false" placeholder="Bedrijfsnaam"></span><br>
+                    <span class="functie"><input type="text" name="functie" value="" size="40" class="form-control formintput" aria-invalid="false" placeholder="Functie"></span><br>
+                    <span class="info"><textarea name="info" cols="40" rows="2" class="form-control" aria-invalid="false" placeholder="Kun je ons alvast wat meer informatie geven over je vraag?"></textarea></span><br>
+                    <span class="termijn"><textarea name="termijn" cols="40" rows="2" class="form-control" aria-invalid="false" placeholder="Binnen welke wil je een website?"></textarea></span><br>
+                    <span id="" class=""><label class="hp-message">Gelieve dit veld leeg te laten.</label><input class="form-control" type="text" name="mail" value="" size="40" tabindex="-1" autocomplete="nope"></span><br> -->
+                    <input type="submit" value="Verzenden" class="form-control formbutton"><span class="ajax-loader"></span></p>
+                    <div class="" aria-hidden="true"></div>
+                </form>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+<!-- </div> -->
 
 
 <!-- <div class="container contactpage text-center">
