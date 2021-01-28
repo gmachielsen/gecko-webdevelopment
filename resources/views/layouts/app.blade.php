@@ -67,10 +67,15 @@
 		<div class="nav__content">
 			<ul class="nav__list">
 				<li class="nav__list-item active-nav"><a href="/" class="hover-target">Home</a></li>
-				<li class="nav__list-item"><a href="{{ route('diensten')}}" class="hover-target">diensten</a></li>
+				<li class="nav__list-item"><a href="{{ route('prijzen')}}" class="hover-target">Diensten</a></li>
 				<li class="nav__list-item"><a href="{{ route('our.work')}}" class="hover-target">Ons werk</a></li>
 				<li class="nav__list-item"><a href="{{ route('contact')}}" class="hover-target">Contact</a></li>
 			</ul>
+            <ul>
+                <a href="#" onclick="return true"><i class="fab fa-whatsapp fa-2x"></i></a>
+                <a href="#" onclick="return true"><i class="fas fa-phone fa-2x"></i></a>
+                <a href="#" onclick="return true"><i class="fas fa-envelope-square fa-2x"></i></a>
+            </ul>
 		</div>
 	</div>		
 

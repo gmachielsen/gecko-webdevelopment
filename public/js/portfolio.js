@@ -94,3 +94,16 @@
 
 
 
+    // (function () {
+    //     var id = document.getElementById("#carouselExampleControls")
+    //     element = id.find(".carousel-item").first;
+    //     // var x = document.getElementsByClassName("carousel-item");
+
+    //     element.classList.add("active");
+
+    // };
+
+    // $(document).ready(function () {
+
+    //     $('#myCarousel').find('.item').first().addClass('active');
+    //   });

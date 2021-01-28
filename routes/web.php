@@ -26,6 +26,7 @@ Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'inde
 
 Route::get('/ons-werk', [App\Http\Controllers\FrontendController::class, 'portfolio'])->name('our.work');
 Route::get('/diensten', [App\Http\Controllers\FrontendController::class, 'diensten'])->name('diensten');
+Route::get('/prijzen&paketten', [App\Http\Controllers\FrontendController::class, 'prijzen'])->name('prijzen');
 
 Route::get('/contact', [App\Http\Controllers\FrontendController::class, 'contact'])->name('contact');
 Route::post('/contact/send', [App\Http\Controllers\EmailController::class, 'sendPost'])->name('send.post');

@@ -17,9 +17,15 @@ class FrontendController extends Controller
         $websites = Website::all();
         return view('portfolio', compact('websites'));
     }
+    
     public function diensten()
     {
         $websites = Website::all();
         return view('diensten', compact('websites'));
+    }
+
+    public function prijzen()
+    {
+        return view('prijzen');
     }
 }

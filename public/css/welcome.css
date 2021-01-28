@@ -100,7 +100,7 @@ background: linear-gradient(146deg, rgba(249,29,29,0.7455575980392157) 0%, rgba(
 	background-size: 20%; */
 }
 .third_page {
-	background-color: rgb(255 179 179)!important;
+	background-color: #f78a0285!important;
   /* background-color: #fffead;
   background-color: coral;
   background-color: #ff5f45;
@@ -186,21 +186,21 @@ a {
 	top: -2.5%;
 	left: 22%;
 }
-.second_page .active .caption {
+/* .second_page .active .caption {
 	transform: translate(0%, 0%);
-	-webkit-transition: all 0.8s;
-	   -moz-transition: all 0.8s;
-		-ms-transition: all 0.8s;
-		 -o-transition: all 0.8s;
-			transition: all 0.8s;	
-}
+	-webkit-transition: all 0.5s;
+	   -moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;	
+} */
 a:hover {
 	color: black;
-	-webkit-transition: all 1s;
-	   -moz-transition: all 1s;
-		-ms-transition: all 1s;
-		 -o-transition: all 1s;
-			transition: all 1s;	
+	-webkit-transition: all 0.5s;
+	   -moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;	
 }
 .dnav {
 	height: 30%;
@@ -225,8 +225,8 @@ a:hover {
 	z-index: 1;
 }
 .dnav_point {
-	/* height: 19%; */
-	height: 28%;
+	height: 19%;
+	/* height: 28%; */
 	width: 0.12rem;
 	cursor: pointer;
 	z-index: 2;
@@ -250,19 +250,19 @@ a:hover {
 }
 .dnav_point:hover {
 	background: black;
-	-webkit-transition: all 0.8s;
-	   -moz-transition: all 0.8s;
-		-ms-transition: all 0.8s;
-		 -o-transition: all 0.8s;
-			transition: all 0.8s;
+	-webkit-transition: all 0.5s;
+	   -moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;
 }
 .active_point {
 	background: black !important;
-	-webkit-transition: all 1s;
-	   -moz-transition: all 1s;
-		-ms-transition: all 1s;
-		 -o-transition: all 1s;
-			transition: all 1s;	
+	-webkit-transition: all 0.5s;
+	   -moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;	
 }
 .caption {
 	transform: translate(0px, 500px);
@@ -276,11 +276,11 @@ a:hover {
 }
 .active .caption {
 	transform: translate(0%, 0%);
-	-webkit-transition: all 0.8s;
-	   -moz-transition: all 0.8s;
-		-ms-transition: all 0.8s;
-		 -o-transition: all 0.8s;
-			transition: all 0.8s;	
+	-webkit-transition: all 0.5s;
+	   -moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		 -o-transition: all 0.5s;
+			transition: all 0.5s;	
 }
 
 .logo {
@@ -428,7 +428,7 @@ a:hover {
     padding-left: 15px;
     padding-top: 15px;
     margin-top: 26px;
-    transition: all 0.3s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 
@@ -464,7 +464,7 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #fff;
-    transition: all 0.3s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 .logo-wrap a span {
@@ -480,7 +480,7 @@ a:hover {
     padding-left: 15px;
     padding-top: 15px;
     margin-top: 26px;
-    transition: all 0.3s ease-out;
+    transition: all 0.1s ease-out;
 }
 
 .menu-icon {
@@ -505,10 +505,10 @@ a:hover {
     background-color: #fff;
     margin-bottom: 7px;
     cursor: pointer;
-    -webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
-    transition: background-color .5s ease, -webkit-transform .2s ease;
-    transition: transform .2s ease, background-color .5s ease;
-    transition: transform .2s ease, background-color .5s ease, -webkit-transform .2s ease;
+    -webkit-transition: background-color .2s ease, -webkit-transform .2s ease;
+    transition: background-color .2s ease, -webkit-transform .2s ease;
+    transition: transform .2s ease, background-color .2s ease;
+    transition: transform .2s ease, background-color .2s ease, -webkit-transform .2s ease;
 }
 
 .menu-icon__line-right {
@@ -536,6 +536,10 @@ header a {
 }
 
 .page .second_page {
+	position: relative;
+}
+
+.page .third_page {
 	position: relative;
 }
 
@@ -591,14 +595,44 @@ header a {
 }
 
 
+.mac {
+	object-fit: cover;
+	justify-content: flex-start;
+	align-items: flex-end;
+	display: flex;
+	width: 100%!important;
+	height:100vh!important;
+	position: absolute;
+	/* z-index: -10; */
+	z-index: 0;
+}
 
+.mac img {
+	margin-left: 0%;
+    width: 97%;
+    /* margin-bottom: 6%; */
+	/* height: auto; */
+}
+@media (max-width: 1499) {
+	.button {
+		margin-left: 35%;
+		margin-top: 100%;
+		position: absolute;
+	}
+}
 
-.diensten {
+@media (min-width: 1500) {
+	.button {
+		margin-top: 40%!important;
+	}
+}
+
+/* .diensten {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -8%;
 	margin-bottom: 10%;
-}
+} */
 
 .pardalis {
 	object-fit: cover;
@@ -653,3 +687,56 @@ a {
     left: 14%;
     position: absolute;
 }
+
+
+.contact {
+	position: fixed;
+    bottom: 9%;
+    left: 62%;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+	z-index: 7;
+	z-index: 20;
+}
+
+
+
+
+
+/* .carousel-item {
+	display: block!important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.rounded-lg {
+    border-radius: 1rem !important;
+  }
+  
+  .text-small {
+    font-size: 0.9rem !important;
+  }
+  
+  .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.2em;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    color: #514B64;
+    min-height: 100vh;
+  }
+
+
+
+
+
+.voorbeelden {
+    text-align: center;
+}
+
+
+.voorbeelden .button{
+     display: inline-block;
+     padding: 0.3em 1.2em;
+     margin: 0 0.1em 0.1em 0;
+     border: 0.16em solid rgba(255, 255, 255, 0);
+     background-color: palevioletred;
+     border-radius: 50rem!important;
+     box-sizing: border-box;
+     text-decoration: none;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+     color: #ffffff;
+     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+     text-align: center;
+     transition: all 0.2s;
+    }
+    a.button:hover{
+     border-color: rgba(255, 255, 255, 1);
+    }
+    @media all and (max-width:30em){
+     a.button{
+      display:block;
+      margin:0.2em auto;
+     }
+    }

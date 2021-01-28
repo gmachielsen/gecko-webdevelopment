@@ -18,8 +18,8 @@
       </div>
       <div class="dnav_point">
       </div>
-      <!-- <div class="dnav_point">
-      </div> -->
+      <div class="dnav_point">
+      </div>
       <div class="dnav_point">
       </div>
     </section>
@@ -34,8 +34,16 @@
       <a href="#" onclick="return false"><i class="fab fa-instagram fa-sm"></i></a>
       <a href="#" onclick="return false"><i class="fab fa-pinterest fa-sm"></i></a>
       <a href="https://www.linkedin.com/company/71218508/" onclick="return true"><i class="fab fa-linkedin fa-sm"></i></a>
+      <!-- <a href="#" onclick="return true"><i class="fab fa-whatsapp fa-lg"></i>wa</a> -->
+
 
       <!-- <a href="mailto: nik.message@gmail.com"> feedback&nbsp; <i class="fas fa-envelope-open fa-sm"></i></a> -->
+    </section>
+    <section class="contact">
+      <a href="#" onclick="return true"><i class="fab fa-whatsapp fa-2x"></i></a>
+      <a href="#" onclick="return true"><i class="fas fa-phone fa-2x"></i></a>
+      <a href="#" onclick="return true"><i class="fas fa-envelope-square fa-2x"></i></a>
+
     </section>
     <section class="page first_page">
       <!-- <div class="text" style="width: 68%;">
@@ -99,24 +107,55 @@
       </div> -->
 
     </section>
-    <!-- <section class="page third_page">
-    <h8 style="margin-bottom: 10px; "><a style="margin-top: 94px;" class="logo" href="{{ route('our.work')}}" onclick="return true"> >> Bekijk ons werk <<</a><h/8>
-    <h1 class="caption">Benieuwd naar <br/> ons werk?</h1> -->
+    <section class="page third_page">
+    <h8 style="margin-bottom: 10px; "><a style="margin-top: 94px;" class="logo" href="{{ route('our.work')}}" onclick="return true"> Prijzen en pakketten</a></h8>
+      <div class="mac">
+      <img class="" src="cover/mac.png">
 
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col-6 mx-4">
-              <p>Klik hier!</p>
-          </div>
-          <div class="col-6">
+      </div>
+    <!-- <h1 class="caption">Benieuwd naar <br/> ons werk?</h1> -->
+              <!-- <div class="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="cover/mac.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="cover/mac.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="cover/mac.png" alt="Third slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div> -->
+              <div class="button">
+                <a type="button" href="{{ route('prijzen')}}">Meer informatie</a>
+              </div>
 
-          </div>
-        </div>
-      </div> -->
+            <!-- <div class="col-12 col-md-4">
+                <p>Klik hier!</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <p>Klik hier!</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <p>Klik hier!</p>
+            </div> -->
+
+
     <!-- <div class="text" style="width: 68%;">
       <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">Benieuwd wat wij kunnen betekenen? <br/><a href="">Ja!? >> Klik! <<</a></h1>
     </div> -->
-    <!-- </section> -->
+    </section>
     <section class="page fourth_page">
     <h8 class="shorttext" style="color: black; font-weight: bold;"><a style="margin-top: 94px; color: black;" class="logo" href="{{ route('contact')}}" onclick="return false">Ons benaderen?</a></h8>
 
