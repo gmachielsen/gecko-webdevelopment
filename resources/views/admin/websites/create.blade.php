@@ -18,6 +18,17 @@
                 <label>Name</label>
                 <input type="text" name="name" class="form-control" value="{{ old('name')}}">
             </div>
+
+            <div class="form-group">
+                <label for="type_website">Type website</label>
+                <select name="type_website" class="form-control">
+                    <option value="alizarin">Wordpress</option>
+                    <option value="wisteria">Woocommerce</option>
+                    <option value="emerland">laravel website</option>
+                    <option value="belizehole">node.js website</option>
+                </select>
+            </div>
+
             <div class="form-group">
                 <label>Url</label>
                 <input type="text" name="url" class="form-control" value="{{ old('url')}}">

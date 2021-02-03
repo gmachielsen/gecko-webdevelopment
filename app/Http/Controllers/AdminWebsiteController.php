@@ -37,6 +37,7 @@ class AdminWebsiteController extends Controller
                 'name' => request('name'),
                 'url' =>  request('url'),
                 'content' => request('content'),
+                'type_website' => request('type_website'),
                 'image'=> $filename,
             ]);
         }
@@ -61,7 +62,8 @@ class AdminWebsiteController extends Controller
         $website->name = request('name');
         $website->url = request('url');
         $website->content = request('content');
-
+        $website->type_website = request('type_website');
+        
         if($request->hasFile('image')){
             $file = $request->file('image');
             $ext = $file->getClientOriginalExtension();

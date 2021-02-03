@@ -46,12 +46,9 @@
 
     </section>
     <section class="page first_page">
-      <!-- <div class="text" style="width: 68%;">
-        <div class="col-sm-12"> -->
+ 
           <h1 class="caption">GeckoWebdevelopment<br/>agency voor Webontwikkeling</h1>
 
-        <!-- </div>
-      </div> -->
       <div class="paragraph" style="display: block;">
       </div>
       <div class="tokeh">
@@ -59,113 +56,43 @@
       </div>
     </section>
     <section class="page second_page">
-      <!-- <div class="container text-center">
-        <div class="diensten">
-          <h1>Onze Diensten</h1>  
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-12 col-12 col-xl-4">
-            <h2>Website Ontwikkeling</h2>
-            <div class="icon">
-              <img src="cover/web-development.png" alt="">          
-            </div>
-            <br>
-            <p>Van bedrijfspagina tot webshop tot mobiele web</p>
-          </div>
-          <div class="col-12 col-md-12 col-lg-12 col-xl-4">
-            <h2>Online Marketing</h2>
-            <div class="icon">
-              <img src="cover/bullhorn.png" alt="">          
-            </div>
-            <br>
-            <p>Laat uw bedrijf online
-              opvallen en zorg ervoor
-              dat uw bereik groeit.</p>
-          </div>
-          <div class="col-12 col-md-12 col-lg-12 col-xl-4">
-            <h2>Website-Onderhoud</h2>
-            <div class="icon">
-              <img src="cover/maintenance.png" alt="">          
-            </div>
-            <br>
-            <p>Uw website up-to-date. Wordpress website onderhouden? Kom maar!</p>
-          </div>
-        </div>
 
-      </div> -->
-      <!-- <h1>Wat we doen?</h1> -->
     
       <a style="margin-top: 94px;" class="logo" href="{{ route('our.work')}}" onclick="return false"><h8 style="color: black;">Wat we doen?</h8></a>
 
       <h1 class="caption">Online Marketing, <br/> Websites <br/> &amp; Onderhoud</h1>
 
-    <!-- <div class="text" style="width: 68%;">
-      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">En wij bouwen websites met passie <br/></h1>
-    </div> -->
-    <!-- <div class="grandis">
-        <img src="cover/grandis.png" alt="">
-      </div> -->
+
 
     </section>
     <section class="page third_page">
     <h8 style="margin-bottom: 10px; "><a style="margin-top: 94px;" class="logo" href="{{ route('our.work')}}" onclick="return true"> Prijzen en pakketten</a></h8>
-      <div class="mac">
-      <img class="" src="cover/mac.png">
-
-      </div>
-    <!-- <h1 class="caption">Benieuwd naar <br/> ons werk?</h1> -->
-              <!-- <div class="carousel">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="cover/mac.png" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="cover/mac.png" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="cover/mac.png" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              </div> -->
-              <div class="button">
-                <a type="button" href="{{ route('prijzen')}}">Meer informatie</a>
-              </div>
-
-            <!-- <div class="col-12 col-md-4">
-                <p>Klik hier!</p>
-            </div>
-            <div class="col-12 col-md-4">
-                <p>Klik hier!</p>
-            </div>
-            <div class="col-12 col-md-4">
-                <p>Klik hier!</p>
-            </div> -->
+    <div class="desktop">
+        <div class="mac">
+          <img class="" src="cover/mac.png">
+        </div>
+        <div class="button">
+          <a type="button" href="{{ route('prijzen')}}">Meer informatie</a>
+        </div>
+    </div>
 
 
-    <!-- <div class="text" style="width: 68%;">
-      <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;">Benieuwd wat wij kunnen betekenen? <br/><a href="">Ja!? >> Klik! <<</a></h1>
-    </div> -->
+
     </section>
     <section class="page fourth_page">
     <h8 class="shorttext" style="color: black; font-weight: bold;"><a style="margin-top: 94px; color: black;" class="logo" href="{{ route('contact')}}" onclick="return false">Ons benaderen?</a></h8>
 
-    <div class="text" style="width: 68%;">
+    <!-- <div class="text" style="width: 68%;"> -->
       <h1 class="caption" style="position: relative; z-index: 32; margin-bottom: 50px;"><a class="caption" href="{{ route('contact')}}">Contacteer ons! <br/>Vinden we leuk!</a></h1>
-    </div>
-    <div class="pardalis">
-        <img src="cover/pardalis.png" alt="">
+    <!-- </div> -->
+      <div class="pardalis">
+        <img src="cover/pardalis.png"  alt="">
       </div>    
     </section>
           <!-- &amp; -->
 
 @endsection
+
+
+
+  

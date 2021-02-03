@@ -252,6 +252,7 @@
     <div class="voorbeelden">
     <a type="button" class="button" href="{{ route('our.work')}}">Bekijk voorbeelden</a>
     </div>
+    <br><br><br>
 </section>
 <!-- <section>
 <div id="accordion">

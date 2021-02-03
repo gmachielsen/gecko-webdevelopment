@@ -55,7 +55,8 @@
                                     <th>#</th>
                                     <th>Image</th>
                                     <th>Name</th>
-                                    <th>url</th>
+                                    <th>Type_website</th>
+                                    <th>Url</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -67,6 +68,8 @@
                                         <td><img src="{{ asset('uploads/websites') }}/{{ $website->image }}" width="100px" artwork="width: 100px" alt=""></td>
 
                                         <td>{{ Str::limit($website->name, 30) }}</td>
+                                        <td>{{ $website->type_website }}</td>
+
                                         <td>{{ $website->url }}</td>
                                         <!-- <td>{!! $website->content !!}</td> -->
                                         <td>

@@ -18,6 +18,7 @@ class CreateWebsitesTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->string('image');
+            $table->string('type_website');
             $table->string('url');
             $table->string('content');
         });

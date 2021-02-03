@@ -75,3 +75,10 @@
       margin:0.2em auto;
      }
     }
+
+
+    @media (max-width: 767px) {        
+      .logo-wrap a {
+          font-size: 10px!important;
+      }
+    } 
